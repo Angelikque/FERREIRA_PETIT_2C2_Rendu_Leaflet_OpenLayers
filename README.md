@@ -22,3 +22,12 @@ Concernant la **partie Leaflet**, nous avons rencontré des difficultés pour la
 
 En prenant en compte tous ces problèmes, nous avons oublié d'intégrer le petit texte pour présenter notre choix de jeu de données. Nous n'avons donc pas réitéré les manipulations pour intégrer cette partie pour l'appli OpenLayers. Pour des raisons d'homogénéisation de notre travail, nous ne l'avons pas intégrer, non plus, à l'application Leaflet. Vous trouverez le texte ci-dessous.
 
+-------------------------------------------------------------------------------------------------
+
+Dans le cadre de cette application, nous avons choisi d’exploiter le jeu de données Land Matrix Agri, qui recense les transactions foncières agricoles à grande échelle à travers le monde. En tant qu’ONG engagée dans la protection de l’environnement et des droits des populations locales, ce jeu de données nous permet d’analyser les impacts écologiques et sociaux de l’accaparement des terres, notamment la déforestation, la perte de biodiversité et la pression sur les ressources naturelles.
+
+L’application propose une visualisation cartographique mettant en évidence les projets agricoles ayant un impact direct sur les populations autochtones. Grâce à un filtre dédié, il est possible de n’afficher que les points concernés par ces impacts, afin de faciliter l’identification des zones les plus sensibles et de mieux comprendre l’ampleur des enjeux sociaux et environnementaux.
+
+Chaque point affiché sur la carte est accompagné d’un pop-up informatif permettant d’accéder aux principales données du projet. Ces informations incluent le pays concerné, la surface du terrain exploitée, ainsi que le type de récolte prévue (cultures vivrières, industrielles, agrocarburants, etc.). Le pop-up précise également les types d’impact sur les populations locales, notamment les situations d’éviction ou de déplacement forcé. 
+
+En tant qu'ONG engagée dans la protection de l’environnement et des droits des populations locales, cela permet de documenter les atteintes portées aux écosystèmes et aux droits des populations autochtones, de renforcer notre travail de sensibilisation auprès du public et de soutenir des actions de plaidoyer en faveur d’une gestion des terres plus juste, durable et respectueuse de l’environnement.
