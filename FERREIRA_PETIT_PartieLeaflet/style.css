@@ -1,0 +1,64 @@
+/* Configuration générale de la page */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: rgb(6, 98, 25);
+}
+
+/* Style du titre principal */
+h1 {
+    color: rgb(234, 234, 234);
+    font-size: 25pt;
+    margin: 10px;
+}
+
+/* Place de la carte sur la page : 
+La carte prend 90% de la hauteur de la vue pour ne pas à avoir 
+à scroller pour voir l'ensemble des informations */
+#map {
+    width: 100%;
+    height: 90vh;
+}
+
+/* Styles du Panneau de Filtre */
+.filter-deals {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    color: rgb(234, 234, 234);
+    padding: 10px;
+}
+
+.filter-deals .filter-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styles de la Légende */
+.info.legend {
+    background: rgb(234, 234, 234);
+    padding: 10px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(6, 98, 25);
+}
+
+.legend i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50%; 
+    border: 1px solid rgb(234, 234, 234);
+}
+
+.legend-impact {
+    background: rgb(6, 98, 25);
+}
+
+.legend-no-impact {
+    background: rgb(109, 12, 90);
+}
