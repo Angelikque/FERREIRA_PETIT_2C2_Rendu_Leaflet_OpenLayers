@@ -1,0 +1,94 @@
+<!--RenduFinal - OpenLayers - Angélique PETIT & Lisa FERREIRA-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FERREIRA Lisa & PETIT Angélique - Partie OpenLayers - </title>
+  </head>
+  <body>
+    <h1 id="title">FERREIRA Lisa & PETIT Angélique - ONG environnement</h1>
+    <div id="map"></div>
+    <div id="scale" class="scale"></div>
+    <!-- Création du panneau contrôlant les couches d'affichage -->
+    <div id="controls" class="menu">
+      <!-- Choix du fond de carte -->
+      <fieldset>
+        <legend>Choix du fond de carte</legend>
+        <div>
+          <input type="radio" name="basemap" id="bm-dark" checked>
+          <label for="bm-dark">Mode Sombre</label>
+        </div>
+        <div>
+          <input type="radio" name="basemap" id="bm-osm">
+          <label for="bm-osm">Plan OpenStreetMap</label>
+        </div>
+        <div>
+          <input type="radio" name="basemap" id="bm-sat">
+          <label for="bm-sat">Vue Satellite</label>
+        </div>
+      </fieldset>
+      <!-- Choix des couches à afficher -->
+      <fieldset>
+        <legend>Couches</legend>
+        <div>
+          <input type="checkbox" id="checkbox-countries" name="checkbox-countries" checked />
+          <label for="checkbox-countries">Pays</label>
+        </div>
+        <div>
+          <input type="checkbox" id="checkbox-deals" name="checkbox-deals" checked />
+          <label for="checkbox-deals">Sites</label>
+        </div>
+      </fieldset>
+      <!-- Filtrage des points -->
+      <fieldset>
+        <legend>Impact environnemental</legend>
+        <div>
+          <input type="radio" id="impact-all" name="impact" value="all" checked>
+          <label for="impact-all">Tous les sites</label>
+        </div>
+        <div>
+          <input type="radio" id="impact-yes" name="impact" value="true">
+          <label for="impact-yes">Avec dégradation environnementale</label>
+        </div>
+        <div>
+          <input type="radio" id="impact-no" name="impact" value="false">
+          <label for="impact-no">Sans dégradation environnementale</label>
+        </div>
+      </fieldset>
+    </div>
+    <!-- Création du panneau concernant les données relatives à un point lorsqu'il est sélectionné / cliqué  -->
+    <div id="attributes" class="menu">
+      <fieldset>
+        <legend>Données relatives au point sélectionné</legend>
+        <table>
+          <tr>
+            <th>Pays</th>
+            <th>Type de récolte</th>
+            <th>Date de création</th>
+            <th>Surface d'exploitation</th>
+            <th>Autre type d'impact</th>
+          </tr>
+          <tr>
+            <td id="table-country">…</td>
+            <td id="table-type-recolte">…</td>
+            <td id="table-date-creation">…</td>
+            <td id="table-surface-exploit">…</td>
+            <td id="table-impact-env">…</td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+    <!-- Ajout de la légende (image) -->
+    <div id="legend" class="menu">
+      <fieldset>
+        <legend>Légende</legend>
+        <img id="legend-img"
+             src="http://localhost:8080/geoserver/land_matrix_agri/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&LAYER=land_matrix_agri:deals&STYLE=land_matrix_agri:style2_pts"
+             alt="Légende des points">
+      </fieldset>
+    </div>     
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
