@@ -12,7 +12,7 @@ Ces dysfonctionnements rendent l’environnement instable et peu fiable pour une
 
 Nous tenons à nous excuser pour les difficultés occasionnés par ces problèmes techniques. Malgré les nombreuses tentatives de stabilisation du GeoServer, ces contraintes ont impacté le bon déroulement du projet.
 
-Pour la partie OpenLayers déposée sur GitHub, nous avons dû déposer chaque dossier à la main. Cela a engendré le fait que certains fichiers dont le fichier '.gitignore' et le dossier 'node_modules', qui étaient en 'caché' et donc impossible à déposer.
+Pour la partie OpenLayers déposée sur GitHub, nous avons dû déposer chaque dossier à la main. Cela a engendré le fait que certains fichiers dont le fichier '.gitignore' et le dossier 'node_modules', qui étaient en 'caché' et donc impossible à déposer.</p>
 
 -------------------------------------------------------------------------------------------------
 
@@ -30,4 +30,4 @@ L’application propose une visualisation cartographique mettant en évidence le
 
 Chaque point affiché sur la carte est accompagné d’un pop-up informatif permettant d’accéder aux principales données du projet. Ces informations incluent le pays concerné, la surface du terrain exploitée, ainsi que le type de récolte prévue (cultures vivrières, industrielles, agrocarburants, etc.). Le pop-up précise également les types d’impact sur les populations locales, notamment les situations d’éviction ou de déplacement forcé. 
 
-En tant qu'ONG engagée dans la protection de l’environnement et des droits des populations locales, cela permet de documenter les atteintes portées aux écosystèmes et aux droits des populations autochtones, de renforcer notre travail de sensibilisation auprès du public et de soutenir des actions de plaidoyer en faveur d’une gestion des terres plus juste, durable et respectueuse de l’environnement.</p>
+En tant qu'ONG engagée dans la protection de l’environnement et des droits des populations locales, cela permet de documenter les atteintes portées aux écosystèmes et aux droits des populations autochtones, de renforcer notre travail de sensibilisation auprès du public et de soutenir des actions de plaidoyer en faveur d’une gestion des terres plus juste, durable et respectueuse de l’environnement.
