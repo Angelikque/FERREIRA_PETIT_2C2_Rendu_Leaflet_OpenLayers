@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------------------------
 Problèmes rencontrés 
 -------------------------------------------------------------------------------------------------
-<p style="text-align: justify;">
+
 Concernant la **partie OpenLayers**, nous avons rencontré, lors de l’élaboration et de la mise en place du GeoServer, plusieurs difficultés techniques majeures. Le principal problème réside dans l’impossibilité de relancer correctement le service une fois celui-ci arrêté. En effet, à chaque tentative de redémarrage, le GeoServer devient inutilisable, ce qui oblige à procéder à une reconstruction complète de l’environnement. 
 
 Depuis le mois de décembre, cette opération a dû être répétée à plus de trois reprises sur des machines différentes, en reprenant chacune des étapes du cours. Chaque reconstruction implique une réinstallation complète du GeoServer, la reconfiguration des connexions aux données ainsi que la recréation et le paramétrage de l’ensemble des couches. Cette situation a engendré une perte de temps significative et a fortement ralenti l’avancement du projet. 
@@ -12,7 +12,7 @@ Ces dysfonctionnements rendent l’environnement instable et peu fiable pour une
 
 Nous tenons à nous excuser pour les difficultés occasionnés par ces problèmes techniques. Malgré les nombreuses tentatives de stabilisation du GeoServer, ces contraintes ont impacté le bon déroulement du projet.
 
-Pour la partie OpenLayers déposée sur GitHub, nous avons dû déposer chaque dossier à la main. Cela a engendré le fait que certains fichiers dont le fichier '.gitignore' et le dossier 'node_modules', qui étaient en 'caché' et donc impossible à déposer.</p>
+Pour la partie OpenLayers déposée sur GitHub, nous avons dû déposer chaque dossier à la main. Cela a engendré le fait que certains fichiers dont le fichier '.gitignore' et le dossier 'node_modules', qui étaient en 'caché' et donc impossible à déposer.
 
 -------------------------------------------------------------------------------------------------
 
