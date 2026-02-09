@@ -24,7 +24,7 @@ En prenant en compte tous ces problèmes, nous avons oublié d'intégrer le peti
 
 -------------------------------------------------------------------------------------------------
 
-Dans le cadre de cette application, nous avons choisi d’exploiter le jeu de données Land Matrix Agri, qui recense les transactions foncières agricoles à grande échelle à travers le monde. En tant qu’ONG engagée dans la protection de l’environnement et des droits des populations locales, ce jeu de données nous permet d’analyser les impacts écologiques et sociaux de l’accaparement des terres, notamment la déforestation, la perte de biodiversité et la pression sur les ressources naturelles.
+Dans le cadre de cette application, nous avons choisi d’exploiter le jeu de données Land Matrix Agri, qui recense les transactions foncières agricoles à grande échelle à travers le monde. En tant qu’ONG engagée dans la protection de l’environnement et des droits des populations locales, ce jeu de données nous permet d’analyser les impacts écologiques et sociaux de l’accaparement des terres, comme la déforestation, la perte de biodiversité et la pression sur les ressources naturelles.
 
 L’application propose une visualisation cartographique mettant en évidence les projets agricoles ayant un impact direct sur les populations autochtones. Grâce à un filtre dédié, il est possible de n’afficher que les points concernés par ces impacts, afin de faciliter l’identification des zones les plus sensibles et de mieux comprendre l’ampleur des enjeux sociaux et environnementaux.
 
